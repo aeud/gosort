@@ -1,6 +1,6 @@
 package gosort
 
-func quickSort(A []int) []int {
+func QuickSort(A []int) []int {
 	qs(A, 0, len(A)-1)
 	return A
 }

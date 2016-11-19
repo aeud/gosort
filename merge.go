@@ -1,6 +1,6 @@
 package gosort
 
-func mergeSort(A []int) []int {
+func MergeSort(A []int) []int {
 	l := len(A)
 	if l <= 1 {
 		return A
