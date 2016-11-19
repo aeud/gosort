@@ -6,7 +6,7 @@ func mergeSort(A []int) []int {
 		return A
 	}
 	var la int = l/2 + l%2
-	left := mergeSort(A[0:la])
+	left := mergeSort(A[:la])
 	right := mergeSort(A[la:])
 	return merge(left, right)
 }
